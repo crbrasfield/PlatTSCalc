@@ -1,0 +1,12 @@
+<div id='wrapper'>
+    <form>
+        <input class="input" type="number" plat-bind="op1" placeholder="Input 1">
+        <input class="input" type="number" plat-bind="op2" placeholder="Input 2">
+    </form>
+    <button plat-tap="add()" class="calc-button">+</button>
+    <button plat-tap="subtract()" class="calc-button">-</button>
+    <button plat-tap="multiply()" class="calc-button">*</button>
+    <button plat-tap="divide()" class="calc-button">&divide;</button>
+    <p class="answer" plat-bind="answer">{{answer}}</p>
+    <p class="alert" plat-bind="alert">{{alert}}</p>
+</div>
